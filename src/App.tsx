@@ -12,15 +12,18 @@ import Footer from "./componets/Footer.tsx";
 import Home from "./views/Home.tsx";
 
 
+import Details from "./views/Details.tsx";
+
+import Cart from "./views/Cart.tsx";
+
 //"header-logo"
 
 function App() {
-  // const [count, setCount] = useState(0
+  // const [count, setCount] = useState(0);
 
   return (
     <>
-    <Home/>
-      
+    <Cart/>
     </>
   );
 }
